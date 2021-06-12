@@ -1,0 +1,44 @@
+.body{
+    background-image: url("../images/bg_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.active_home{
+  background-color: white;
+}
+
+#nav_scroll{
+  background-color: black;
+  color: white;
+}
+
+.header{
+  color:maroon; 
+  font-weight: bolder; 
+  font-size: 18px;
+}
+
+#header_color{
+  color: black;
+  margin-top: 8px;
+}
+
+/*--footer--*/
+.footer {
+  padding: 2em 0;
+  text-align: center;
+  margin-top: 10px;
+  background-color: rgb(223, 74, 61);
+}
+.footer p {
+  color: #fff;
+font-size: 1.1em;
+}
+.footer p a{
+  color: #F7E612;
+}
+.footer p a:hover{
+  color: #fff;
+}
+/*--//footer--*/

@@ -1,0 +1,81 @@
+body{
+    background-image: url("../images/venue_bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.active_venue{
+    background-color: white;
+}
+h3.title {
+    font-size: 4em;
+    text-align: center;
+    color: #008B8B;
+    border-bottom: 4px double rgba(41, 28, 4, 0.35);
+    padding-bottom: 0.2em;
+	margin-bottom: 1em;
+}
+
+/*--contact--*/
+.contact-left{
+    border: 1px solid black;
+}
+
+.contact-left iframe {
+    width: 100%;
+    min-height: 29.5em;
+    
+}
+
+.address-left {
+    float: left;
+    width: 41%;
+	position: relative;
+    
+}
+#text_color {
+    color: black;
+    font-weight: bold;
+}
+
+.address-right {
+    float: right;
+    width: 46%;
+   
+}
+.contact p {
+    color: red;
+    font-weight: 30px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.address-left:after {
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    right: -17px;
+}
+/*--//contact--*/
+
+/*--footer--*/
+.footer {
+    padding: 2em 0;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(223, 74, 61);
+}
+.footer p {
+    color: #fff;
+	font-size: 1.1em;
+}
+.footer p a{
+    color: #F7E612;
+}
+.footer p a:hover{
+    color: #fff;
+}
+/*--//footer--*/
