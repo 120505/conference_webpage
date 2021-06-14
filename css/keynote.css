@@ -1,0 +1,49 @@
+/*--contact--*/
+
+main{
+    width: auto;
+    height: 100%;
+    padding: 30px;
+}
+article {
+    padding: 3px;
+}
+hr {
+    background-color: red;
+    height: 1px;
+    width: 100%;
+    align-items: right;
+}
+p {
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+}
+h1 {
+    font-size: 3rem;
+    color: rgb(223, 74, 61);
+     font-weight: bold ;
+}
+h2 {
+    font-size: 2.3rem;
+    color: rgb(223, 74, 61);
+}
+/*--//contact--*/
+
+/*--footer--*/
+.footer {
+    padding: 2em 0;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(223, 74, 61);
+}
+.footer p {
+    color: #fff;
+	font-size: 1.1em;
+}
+.footer p a{
+    color: #F7E612;
+}
+.footer p a:hover{
+    color: #fff;
+}
+/*--//footer--*/

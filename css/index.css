@@ -1,35 +1,95 @@
-.body{
-    background-image: url("../images/bg_img.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+body 
+{background-color: rgb(236, 216, 236);
+}
+/*nav css*/
+.navbar {
+  padding: 12px;
+  box-shadow: 0 4px 6px #222;
+  margin:0;
+  width: 100%;
+}
+
+.navbar-dark , .navbar-dark a {
+  color:black !important;
+}
+
+.navbar-dark , .navbar-dark a:hover {
+  color:black;
+}
+
+.bg-dark{
+  background: rgb(155, 53, 44) !important;
+}
+.navbar-brand{
+  font-weight: bolder;
+ 
+}
+.header{
+  font-weight: bolder; 
+  font-size: 18px;
+  
 }
 .active_home{
   background-color: white;
+  border-radius: 40%;
+  cursor: pointer;
 }
-
 #nav_scroll{
   background-color: black;
   color: white;
 }
+/*nav css*/
 
-.header{
-  color:maroon; 
-  font-weight: bolder; 
-  font-size: 18px;
+/*Details*/
+#alignment{
+  text-align: center;
+  font-weight: bolder;
 }
 
-#header_color{
-  color: black;
-  margin-top: 8px;
+.bg{
+  background-color: rgb(155, 53, 44);
+  color:#fff;
+  box-shadow: 0 4px 6px #222;
+  height: fit-content;
+  text-align: center;
 }
+#space{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*Details*/
+
+/*About*/
+#about_heading{
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/*book*/
+.book{
+  width:120px;
+  box-shadow: 0 4px 6px #222;
+  margin-bottom: 10px;
+}
+#book_detail{
+  color:maroon;
+  font-weight:600;
+  text-decoration: none;
+}
+.miet{
+  width:200px;
+  box-shadow: 0 4px 6px #222;
+  margin-top: 10px;
+}
+
 
 /*--footer--*/
 .footer {
   padding: 2em 0;
   text-align: center;
   margin-top: 10px;
-  background-color: rgb(223, 74, 61);
+  background-color: rgb(155, 53, 44);;
 }
 .footer p {
   color: #fff;
@@ -42,3 +102,6 @@ font-size: 1.1em;
   color: #fff;
 }
 /*--//footer--*/
+
+
+

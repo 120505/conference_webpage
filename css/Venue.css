@@ -1,13 +1,3 @@
-body{
-    background-image: url("../images/venue_bg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.active_venue{
-    background-color: white;
-}
 h3.title {
     font-size: 4em;
     text-align: center;

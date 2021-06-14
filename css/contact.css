@@ -1,19 +1,9 @@
-body{
-    background-image: url("../images/venue_bg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-
 /*--contact--*/
 
 .contact{
     width: auto;
     height: 50rem;
     text-align: center;
-   
-  
 
 }
 .contact hr{
