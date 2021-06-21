@@ -5,6 +5,9 @@ main{
     height: 100%;
     padding: 30px;
 }
+.list{
+    font-size: 2rem;
+}
 article {
     padding: 5px;
 }

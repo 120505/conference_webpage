@@ -1,5 +1,6 @@
 /*--contact--*/
 
+
 .contact{
     width: auto;
     height: 50rem;
@@ -30,14 +31,10 @@
 #text_style{
     color: rgb(4, 10, 92);
     font-weight: bold;
-    text-align: center;
-    font-size: 4rem;
-
+    margin-left: 5px;
 }
 #para_style{
-    color: black;
-    text-align:center;
-    font-size: 2rem;
+font-weight: bold;
 }
 
 .contact-left:after {

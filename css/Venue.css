@@ -28,6 +28,12 @@ h3.title {
     color: black;
     font-weight: bold;
 }
+#text_color1{
+    color: teal;
+}
+#box{
+    box-shadow:8px 10px 8px grey;
+}
 
 .address-right {
     float: right;
