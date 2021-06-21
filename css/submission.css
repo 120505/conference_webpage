@@ -1,0 +1,22 @@
+.download{
+    text-align: center;
+    margin: auto;
+    color: rgb(44, 190, 216);
+  }
+  .container{
+      font-weight: bold;
+  }
+#heading{
+    padding-top: 30px;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: teal;
+} 
+.info{
+    color:darkolivegreen;
+    font-size: 2rem;
+} 
+.items{
+    font-size: 2rem;
+}
